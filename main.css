@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50em;
+}
+
+.btn{
+    height: 2rem;
+    width: 10rem;
+    position: relative;
+    left: 10%;
+    outline: none;
+    box-shadow: 0 0 10px rgb(190, 182, 182);
+    border-radius: 2em;
+    background-color:beige;
+}
+
+h1 p{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(242, 148, 25);
+    
+}
+
+.btn:hover{
+    box-shadow: 0 4px 17px rgb(158, 229, 241) inset;
+}
